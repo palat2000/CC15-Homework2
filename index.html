@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card {
+            position:relative;
+            height: 260px;
+            width: 200px;
+            border: 1px solid lightgray;
+            box-shadow: 4px 4px 20px lightgray;
+            border-radius: 10px;
+            top:50px;
+            left:100px;
+        }
+        img {
+            margin-top:20px;
+            width: 200px;
+            height: 190px;
+        }
+        .text {
+            border-top:1px solid lightgray;
+            text-align: center;
+        }
+        .text h4 {
+            margin-top:8px;
+            font-weight: 400;
+            font-size: 25px;
+        }
+        .cicle {
+            text-align: center;
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            right:-15px;
+            top:-10px;
+        }
+        .cicle p {
+            color:#fff;
+            margin-top:6px;
+        }
+        i {
+            position: absolute;
+            top:5px;
+            left:7px;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+                <i class="fa-solid fa-x"></i>
+                <div class="cicle">
+                    <p>7</p>
+                </div>
+                <img src="./humen.svg" alt="">
+                <div class="text">
+                    <h4>A.Rudiger</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
